@@ -4,6 +4,7 @@ type PricingCardProps = {
   plan: string;
   price: string;
   features: string[];
+  isFeatured?: boolean
 };
 
 export const PricingCard: React.FC<PricingCardProps> = ({
