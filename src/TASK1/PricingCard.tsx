@@ -15,7 +15,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({
     <div
       tabIndex={0}
       className={
-        "group flex flex-col justify-between rounded-xl border bg-white text-[#4a4c5d] p-6 shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 hover:shadow-lg transition-all duration-300 w-[300px] p-[10px] transform origin-center hover:scale-y-[1.125] hover:bg-[#38485c] hover:text-white"
+        "group flex flex-col justify-between rounded-xl border bg-white text-[#4a4c5d] p-6 shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 hover:shadow-lg transition-shadow duration-200 w-[300px] p-[10px] hover:bg-[#38485c] hover:text-white"
       }
     >
       <div >
