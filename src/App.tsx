@@ -1,5 +1,6 @@
 import './App.css'
-import  {PricingCard}  from './PricingCard'
+import  {PricingCard}  from './TASK1/PricingCard'
+import Dashboard from './TASK3/Dashboard'
 
 function App() {
 
@@ -14,13 +15,13 @@ function App() {
         plan="Pro"
         price="10"
         features={["1 GB Storage", "10 Users", "Priority Support"]}
-        isFeatured
       />
       <PricingCard
         plan="Enterprise"
         price="100"
         features={["10 GB Storage", "100 Users", "Priority Support"]}
       />
+      <Dashboard />
     </div>
   )
 }
