@@ -21,7 +21,7 @@ function App() {
         price="100"
         features={["10 GB Storage", "100 Users", "Priority Support"]}
       />
-      <Dashboard />
+      {/* <Dashboard /> */}
     </div>
   )
 }
